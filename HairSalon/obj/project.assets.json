@@ -5683,6 +5683,7 @@
     "net5.0": [
       "Microsoft.EntityFrameworkCore >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Proxies >= 5.0.0",
+      "MySqlConnector >= 1.1.0",
       "Pomelo.EntityFrameworkCore.MySql >= 5.0.0-alpha.2"
     ]
   },
@@ -5730,6 +5731,10 @@
           "Microsoft.EntityFrameworkCore.Proxies": {
             "target": "Package",
             "version": "[5.0.0, )"
+          },
+          "MySqlConnector": {
+            "target": "Package",
+            "version": "[1.1.0, )"
           },
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",

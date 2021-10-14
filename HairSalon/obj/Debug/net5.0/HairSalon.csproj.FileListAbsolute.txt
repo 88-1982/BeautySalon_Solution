@@ -48,3 +48,4 @@
 /Users/deauntehall/Desktop/HairSalon.Solution/HairSalon/obj/Debug/net5.0/ref/HairSalon.dll
 /Users/deauntehall/Desktop/HairSalon.Solution/HairSalon/obj/Debug/net5.0/HairSalon.pdb
 /Users/deauntehall/Desktop/HairSalon.Solution/HairSalon/obj/Debug/net5.0/HairSalon.genruntimeconfig.cache
+/Users/deauntehall/Desktop/HairSalon.Solution/HairSalon/bin/Debug/net5.0/appsettings.json

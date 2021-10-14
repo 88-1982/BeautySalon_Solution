@@ -17,10 +17,7 @@ namespace HairSalon
         .AddJsonFile("appsettings.json");
       Configuration = builder.Build();
     }
-    public static class DBconfiguration
-    {
-    public static string ConnectionString = "server=localhost;user id=root;password=Aresthegod1;port=3306;database=Hair_Salon;";  
-    }
+
     public IConfigurationRoot Configuration { get; set; }
 
     public void ConfigureServices(IServiceCollection services)

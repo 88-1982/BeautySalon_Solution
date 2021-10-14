@@ -39,15 +39,15 @@
 
   { "ConnectionStrings": { "DefaultConnection": "Server=localhost;Port=3306;database=[database_name];uid=root;pwd=[password];" } }
 
-  If you are using a server other than the default server, you will need to change the Port number. Otherwise, we will update the code to put in our database information and password. Replace "[database_name]" with the "hair_salon" and "[password]" with your password. Again this is private and should be included in a .gitignore. The final result should look like the following:
+  If you are using a server other than the default server, you will need to change the Port number. Otherwise, we will update the code to put in our database information and password. Replace "[database_name]" with the "DeAunte_Hall" and "[password]" with your password. Again this is private and should be included in a .gitignore. The final result should look like the following:
 
-  { "ConnectionStrings": { "DefaultConnection": "Server=localhost;Port=3306;database=hair_salon;uid=root;pwd=mydbpassword;" } }
+  { "ConnectionStrings": { "DefaultConnection": "Server=localhost;Port=3306;database=DeAunte_Hall;uid=root;pwd=mydbpassword;" } }
 
   5.Run Application
   From the top level directory enter 'cd HairSalon' in the command line.
     Run the command 'dotnet restore' to download dependencies required to run the project.
-  Next, enter 'dotnet run' the in command line. You should a       message similar to the following populate in your terminal:
-  Hosting environment: Production Content root path: C:\Users\vampi\OneDrive\Desktop\epicodus\HairSalon.Solution\HairSalon Now listening on: http://localhost:5000 Now listening on: https://localhost:5001 Application started. Press Ctrl+C to shut down.
+  Next, enter 'dotnet run' the in command line. You should a message similar to the following populate in your terminal:
+  Hosting environment: Production Content root path:  http://localhost:5000 Now listening on: https://localhost:5001 Application started. Press Ctrl+C to shut down.
 
   Lastly, follow the link "http://localhost:5000" either via holding the 'ctrl' and clicking the link (PC), or by holding 'cmd' and clicking the link (Mac).
 
@@ -66,6 +66,7 @@
 
 ## 
 MIT
+
 
 ## Contact Information
 
